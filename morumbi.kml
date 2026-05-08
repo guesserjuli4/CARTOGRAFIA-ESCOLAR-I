@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ecoparque_morumbi" id="ecoparque_morumbi">
+	<SimpleField name="Layer" type="string"></SimpleField>
+	<SimpleField name="PaperSpace" type="int"></SimpleField>
+	<SimpleField name="SubClasses" type="string"></SimpleField>
+	<SimpleField name="Linetype" type="string"></SimpleField>
+	<SimpleField name="EntityHand" type="string"></SimpleField>
+	<SimpleField name="Text" type="string"></SimpleField>
+	<SimpleField name="idlote" type="float"></SimpleField>
+	<SimpleField name="mslink" type="float"></SimpleField>
+	<SimpleField name="cdloteamen" type="string"></SimpleField>
+	<SimpleField name="cdquadra" type="string"></SimpleField>
+	<SimpleField name="cdlote" type="string"></SimpleField>
+	<SimpleField name="idlotegeo" type="float"></SimpleField>
+	<SimpleField name="cddistrito" type="string"></SimpleField>
+	<SimpleField name="cdzona" type="string"></SimpleField>
+	<SimpleField name="cdsetor" type="string"></SimpleField>
+	<SimpleField name="cdlogradou" type="string"></SimpleField>
+	<SimpleField name="cdbairro" type="string"></SimpleField>
+	<SimpleField name="idempresa" type="float"></SimpleField>
+	<SimpleField name="mslinklote" type="string"></SimpleField>
+	<SimpleField name="mslinkquad" type="float"></SimpleField>
+	<SimpleField name="path" type="string"></SimpleField>
+</Schema>
+<Folder><name>ecoparque_morumbi</name>
+  <Placemark id="ecoparque_morumbi.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecoparque_morumbi">
+		<SimpleData name="idlote">82837</SimpleData>
+		<SimpleData name="mslink">59343</SimpleData>
+		<SimpleData name="cdloteamen">101</SimpleData>
+		<SimpleData name="cdquadra">RESP</SimpleData>
+		<SimpleData name="cdlote">0004</SimpleData>
+		<SimpleData name="idlotegeo">40339</SimpleData>
+		<SimpleData name="cddistrito">01</SimpleData>
+		<SimpleData name="cdzona">00</SimpleData>
+		<SimpleData name="cdsetor">01</SimpleData>
+		<SimpleData name="cdlogradou">259</SimpleData>
+		<SimpleData name="cdbairro">21</SimpleData>
+		<SimpleData name="idempresa">1</SimpleData>
+		<SimpleData name="mslinklote">|87870|</SimpleData>
+		<SimpleData name="mslinkquad">6887</SimpleData>
+		<SimpleData name="path">C:\Users\rafaelrs\Desktop\mapa2.shx|layername=mapa2</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-53.4069118911861,-24.9406111376103 -53.4062891180679,-24.9424153230673 -53.4056542503925,-24.9442470278443 -53.4055717277256,-24.9444189016329 -53.404869891586,-24.9440192274287 -53.4039068484535,-24.9467788817681 -53.4044379558657,-24.9470923468926 -53.4043760797716,-24.9472986761412 -53.4042938186182,-24.9474218822255 -53.4054807726861,-24.9481256912813 -53.4058594051324,-24.9478209550445 -53.4051760877047,-24.947521373256 -53.404786694185,-24.9470321127504 -53.4053793977325,-24.9460737856591 -53.4061393518584,-24.945102414071 -53.406203961355,-24.9450348154259 -53.4062847565208,-24.9449808725097 -53.4063145596764,-24.9447453835433 -53.4064650436038,-24.9445416117026 -53.4072473146023,-24.9426627101022 -53.4074346147883,-24.9426581812821 -53.4080477107302,-24.9426621439996 -53.4080535088032,-24.9414019846451 -53.4081413608232,-24.9413114160568 -53.408276841291,-24.9412700901151 -53.4082755926231,-24.9410328902638 -53.4082217438196,-24.9409885921503 -53.4077555224402,-24.9408539993818 -53.4078067178243,-24.9406875626949 -53.4079328112859,-24.9402535401121 -53.4077854904699,-24.9402018380172 -53.4081457311609,-24.9393150175675 -53.4082734074542,-24.9393147345085 -53.4082694264446,-24.9392579668278 -53.4082721587864,-24.938545660982 -53.4076893210073,-24.9385453772354 -53.4077055757238,-24.9370227849958 -53.4074018372557,-24.936847851196 -53.4070088190322,-24.9367929366509 -53.4069097277528,-24.9404220040128 -53.4069118911861,-24.9406111376103</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

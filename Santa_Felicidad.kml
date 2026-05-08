@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ecoparque_santa_felicidade" id="ecoparque_santa_felicidade">
+	<SimpleField name="Layer" type="string"></SimpleField>
+	<SimpleField name="PaperSpace" type="int"></SimpleField>
+	<SimpleField name="SubClasses" type="string"></SimpleField>
+	<SimpleField name="Linetype" type="string"></SimpleField>
+	<SimpleField name="EntityHand" type="string"></SimpleField>
+	<SimpleField name="Text" type="string"></SimpleField>
+	<SimpleField name="idlote" type="float"></SimpleField>
+	<SimpleField name="mslink" type="float"></SimpleField>
+	<SimpleField name="cdloteamen" type="string"></SimpleField>
+	<SimpleField name="cdquadra" type="string"></SimpleField>
+	<SimpleField name="cdlote" type="string"></SimpleField>
+	<SimpleField name="idlotegeo" type="float"></SimpleField>
+	<SimpleField name="cddistrito" type="string"></SimpleField>
+	<SimpleField name="cdzona" type="string"></SimpleField>
+	<SimpleField name="cdsetor" type="string"></SimpleField>
+	<SimpleField name="cdlogradou" type="string"></SimpleField>
+	<SimpleField name="cdbairro" type="string"></SimpleField>
+	<SimpleField name="idempresa" type="float"></SimpleField>
+	<SimpleField name="mslinklote" type="string"></SimpleField>
+	<SimpleField name="mslinkquad" type="float"></SimpleField>
+	<SimpleField name="path" type="string"></SimpleField>
+</Schema>
+<Folder><name>ecoparque_santa_felicidade</name>
+  <Placemark id="ecoparque_santa_felicidade.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecoparque_santa_felicidade">
+		<SimpleData name="idlote">148225</SimpleData>
+		<SimpleData name="mslink">4203918</SimpleData>
+		<SimpleData name="cdloteamen">82</SimpleData>
+		<SimpleData name="cdquadra">0044</SimpleData>
+		<SimpleData name="cdlote">1AUP</SimpleData>
+		<SimpleData name="idlotegeo">109813</SimpleData>
+		<SimpleData name="cddistrito">01</SimpleData>
+		<SimpleData name="cdzona">00</SimpleData>
+		<SimpleData name="cdsetor">01</SimpleData>
+		<SimpleData name="cdlogradou">6</SimpleData>
+		<SimpleData name="cdbairro">25</SimpleData>
+		<SimpleData name="idempresa">1</SimpleData>
+		<SimpleData name="mslinklote">|780|</SimpleData>
+		<SimpleData name="path">C:\Users\rafaelrs\Desktop\mapa2.shx|layername=mapa2</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-53.4599141473783,-24.990224225795 -53.4591382076862,-24.9911541729578 -53.459191684884,-24.9913892528753 -53.4594201911108,-24.9913128592716 -53.4594885556787,-24.9915182730761 -53.4601846880364,-24.9913023905147 -53.4602575790254,-24.991535815286 -53.4611143212926,-24.9912523102334 -53.4617502997232,-24.9897499874617 -53.4621070770144,-24.9895300152392 -53.4621257275464,-24.9894854025824 -53.4623522105804,-24.9893457628152 -53.4635763661065,-24.9898106113607 -53.4640519608351,-24.9887817796115 -53.4651169257447,-24.9891929978569 -53.4653223411768,-24.9892515470622 -53.4663962242718,-24.9896832446489 -53.4673656003888,-24.9900597792187 -53.4677741294529,-24.9891765862174 -53.4666629314369,-24.9891111940235 -53.4665003332428,-24.9890816322705 -53.4653534524974,-24.9886764869853 -53.4634716481898,-24.9879682366162 -53.4632865351988,-24.9885193672176 -53.4629297283447,-24.9884517431549 -53.4627163484393,-24.9873007262683 -53.4621171186259,-24.9873854165599 -53.4619752255708,-24.9874432254164 -53.4619000970928,-24.9875278929108 -53.4607660039127,-24.9894418594916 -53.4607103122226,-24.9895342793533 -53.460154843298,-24.990188419176 -53.460154843298,-24.990188419176 -53.460154843298,-24.990188419176 -53.4599141473783,-24.990224225795</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

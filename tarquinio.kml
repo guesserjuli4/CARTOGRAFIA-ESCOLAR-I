@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="parque_tarquinio" id="parque_tarquinio">
+	<SimpleField name="Layer" type="string"></SimpleField>
+	<SimpleField name="PaperSpace" type="int"></SimpleField>
+	<SimpleField name="SubClasses" type="string"></SimpleField>
+	<SimpleField name="Linetype" type="string"></SimpleField>
+	<SimpleField name="EntityHand" type="string"></SimpleField>
+	<SimpleField name="Text" type="string"></SimpleField>
+	<SimpleField name="idlote" type="float"></SimpleField>
+	<SimpleField name="mslink" type="float"></SimpleField>
+	<SimpleField name="cdloteamen" type="string"></SimpleField>
+	<SimpleField name="cdquadra" type="string"></SimpleField>
+	<SimpleField name="cdlote" type="string"></SimpleField>
+	<SimpleField name="idlotegeo" type="float"></SimpleField>
+	<SimpleField name="cddistrito" type="string"></SimpleField>
+	<SimpleField name="cdzona" type="string"></SimpleField>
+	<SimpleField name="cdsetor" type="string"></SimpleField>
+	<SimpleField name="cdlogradou" type="string"></SimpleField>
+	<SimpleField name="cdbairro" type="string"></SimpleField>
+	<SimpleField name="idempresa" type="float"></SimpleField>
+	<SimpleField name="mslinklote" type="string"></SimpleField>
+	<SimpleField name="mslinkquad" type="float"></SimpleField>
+	<SimpleField name="path" type="string"></SimpleField>
+</Schema>
+<Folder><name>parque_tarquinio</name>
+  <Placemark id="parque_tarquinio.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parque_tarquinio">
+		<SimpleData name="idlote">146206</SimpleData>
+		<SimpleData name="mslink">4214726</SimpleData>
+		<SimpleData name="cdloteamen">69</SimpleData>
+		<SimpleData name="cdquadra">0067</SimpleData>
+		<SimpleData name="cdlote">1K1B</SimpleData>
+		<SimpleData name="idlotegeo">120735</SimpleData>
+		<SimpleData name="cddistrito">01</SimpleData>
+		<SimpleData name="cdzona">00</SimpleData>
+		<SimpleData name="cdsetor">01</SimpleData>
+		<SimpleData name="cdlogradou">3194</SimpleData>
+		<SimpleData name="cdbairro">8</SimpleData>
+		<SimpleData name="idempresa">1</SimpleData>
+		<SimpleData name="mslinklote">|809|</SimpleData>
+		<SimpleData name="mslinkquad">4195626</SimpleData>
+		<SimpleData name="path">C:\Users\rafaelrs\Desktop\mapa2.shx|layername=mapa2</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-53.4633507867757,-24.9720173901834 -53.4631534704582,-24.9718235370057 -53.4629498240922,-24.9714444723374 -53.4626833552856,-24.9707444806763 -53.4626274921783,-24.970289940863 -53.4626204684214,-24.9699469592524 -53.4623298601912,-24.9699675108484 -53.4613491684089,-24.9700704836802 -53.4614358532762,-24.9707849384729 -53.4611162138026,-24.9708137500422 -53.4611807728204,-24.9712127236633 -53.4608848239709,-24.9714486774905 -53.4602692072008,-24.9714376241644 -53.4603244532941,-24.9722391760097 -53.4603356880974,-24.9723035296277 -53.4603645526326,-24.9723928182728 -53.4605731878907,-24.9729566878308 -53.4606086107812,-24.9730349998626 -53.4606595274933,-24.9731151662022 -53.4612234589224,-24.9737013647271 -53.4615899290498,-24.9731111193827 -53.4612926769938,-24.9729577746458 -53.4614267720795,-24.9727417974685 -53.4617240237328,-24.9728951419683 -53.4618864272862,-24.9726361874742 -53.4628051346985,-24.973108625578 -53.4632022110928,-24.9724731895403 -53.4633465667579,-24.9725555989686 -53.463441199242,-24.9724073633064 -53.4635449704332,-24.9722626502228 -53.4633507867757,-24.9720173901834</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
