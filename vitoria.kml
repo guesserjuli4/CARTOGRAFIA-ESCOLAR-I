@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="parque_vitoria" id="parque_vitoria">
+	<SimpleField name="Layer" type="string"></SimpleField>
+	<SimpleField name="PaperSpace" type="int"></SimpleField>
+	<SimpleField name="SubClasses" type="string"></SimpleField>
+	<SimpleField name="Linetype" type="string"></SimpleField>
+	<SimpleField name="EntityHand" type="string"></SimpleField>
+	<SimpleField name="Text" type="string"></SimpleField>
+	<SimpleField name="idlote" type="float"></SimpleField>
+	<SimpleField name="mslink" type="float"></SimpleField>
+	<SimpleField name="cdloteamen" type="string"></SimpleField>
+	<SimpleField name="cdquadra" type="string"></SimpleField>
+	<SimpleField name="cdlote" type="string"></SimpleField>
+	<SimpleField name="idlotegeo" type="float"></SimpleField>
+	<SimpleField name="cddistrito" type="string"></SimpleField>
+	<SimpleField name="cdzona" type="string"></SimpleField>
+	<SimpleField name="cdsetor" type="string"></SimpleField>
+	<SimpleField name="cdlogradou" type="string"></SimpleField>
+	<SimpleField name="cdbairro" type="string"></SimpleField>
+	<SimpleField name="idempresa" type="float"></SimpleField>
+	<SimpleField name="mslinklote" type="string"></SimpleField>
+	<SimpleField name="mslinkquad" type="float"></SimpleField>
+	<SimpleField name="path" type="string"></SimpleField>
+</Schema>
+<Folder><name>parque_vitoria</name>
+  <Placemark id="parque_vitoria.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parque_vitoria">
+		<SimpleData name="idlote">139573</SimpleData>
+		<SimpleData name="mslink">4197011</SimpleData>
+		<SimpleData name="cdloteamen">180</SimpleData>
+		<SimpleData name="cdquadra">0020</SimpleData>
+		<SimpleData name="cdlote">0010</SimpleData>
+		<SimpleData name="idlotegeo">100209</SimpleData>
+		<SimpleData name="cddistrito">01</SimpleData>
+		<SimpleData name="cdzona">00</SimpleData>
+		<SimpleData name="cdsetor">01</SimpleData>
+		<SimpleData name="cdlogradou">483</SimpleData>
+		<SimpleData name="cdbairro">3</SimpleData>
+		<SimpleData name="idempresa">1</SimpleData>
+		<SimpleData name="mslinklote">|790|</SimpleData>
+		<SimpleData name="mslinkquad">3739</SimpleData>
+		<SimpleData name="path">C:\Users\rafaelrs\Desktop\mapa2.shx|layername=mapa2</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-53.4558684796434,-24.940853473297 -53.4567212179399,-24.941384942352 -53.4560622762999,-24.94227973503 -53.4561786875174,-24.9423467797917 -53.4564758268853,-24.9425179106177 -53.4568522117861,-24.9427346795531 -53.4573540602843,-24.9430237031532 -53.4578977320399,-24.943336809926 -53.4580650161893,-24.9434331500248 -53.4582126446521,-24.9435181699892 -53.4584133862328,-24.9436337776192 -53.4584786976198,-24.9436713905159 -53.458787177439,-24.9438312564121 -53.4587786633785,-24.9437233906709 -53.4587701440017,-24.943615457439 -53.4590046159886,-24.9436055251748 -53.4589705622603,-24.943531005893 -53.4590054345804,-24.9434741186931 -53.459064272524,-24.9434615181387 -53.4591175103026,-24.9434897673098 -53.4595226492684,-24.9434764477289 -53.459400341038,-24.941645185738 -53.4608172692591,-24.9415580241904 -53.460389977581,-24.9399745260878 -53.4605152098367,-24.9398466636962 -53.4607641941244,-24.9396684440455 -53.4609757576804,-24.9395170089589 -53.4612661048598,-24.9392415347346 -53.461461919221,-24.9390700298161 -53.4617574982942,-24.9389033905324 -53.4617378748283,-24.9386193982726 -53.4616881074112,-24.9386273273715 -53.4605776519864,-24.937923935574 -53.4598520789431,-24.9374580717641 -53.4597417327956,-24.9376733280687 -53.459797031914,-24.9378147753863 -53.4586320670928,-24.9394007461943 -53.4583301330683,-24.9398345120902 -53.4578771497458,-24.9395735916325 -53.4579046204398,-24.9396443561972 -53.4578590440612,-24.9397037984002 -53.4577478785784,-24.9397115605951 -53.4574834543058,-24.9400931997237 -53.4573579904447,-24.940020962729 -53.4572325267245,-24.9399487256258 -53.457107063145,-24.9398764884049 -53.4570224467842,-24.9399986126546 -53.4569378302627,-24.9401207368582 -53.4568532135711,-24.9402428610338 -53.456451730229,-24.9400117005091 -53.4563221601877,-24.9401987027675 -53.4560841734263,-24.9405421760612 -53.4559122933156,-24.9407902399293 -53.4558684796434,-24.940853473297 -53.4558684796434,-24.940853473297</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
